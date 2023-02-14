@@ -3,20 +3,25 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import Navigation from './Navbar';
-import Home from './Home.js'
-import Create from './Create.js'
-import MyListedItems from './MyListedItems.js'
-import MyPurchases from './MyPurchases.js'
-import MarketplaceAbi from '../contractsData/Marketplace.json'
-import MarketplaceAddress from '../contractsData/Marketplace-address.json'
-import NFTAbi from '../contractsData/NFT.json'
-import NFTAddress from '../contractsData/NFT-address.json'
-import { useState } from 'react'
-import { ethers } from "ethers"
-import { Spinner } from 'react-bootstrap'
 
 import './App.css';
+
+import Navigation from './Navbar';
+import { useState } from 'react'
+import { ethers } from "ethers"
+
+import MarketplaceAbi from '../contractsData/Marketplace.json'
+import MarketplaceAddress from '../contractsData/Marketplace-address.json'
+
+import NFTAbi from '../contractsData/NFT.json'
+import NFTAddress from '../contractsData/NFT-address.json'
+
+import Home from './Home'
+import Create from './Create'
+import MyListedItems from './MyListedItems'
+import MyPurchases from './MyPurchases'
+import { Spinner } from 'react-bootstrap'
+
 
 function App() {
   const [loading, setLoading] = useState(true)
