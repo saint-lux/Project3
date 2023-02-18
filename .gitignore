@@ -31,3 +31,6 @@ typechain
 #Hardhat files
 cache
 artifacts
+
+# Remove PPTX
+PP_Project3 w Visualizations.pptx
