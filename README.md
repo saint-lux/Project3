@@ -46,3 +46,8 @@ License
 ----
 MIT
 
+
+___
+
+Resources:
+* https://support.chainstack.com/hc/en-us/articles/4408642503449-Using-MetaMask-with-a-Hardhat-node
